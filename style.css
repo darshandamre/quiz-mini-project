@@ -1,0 +1,54 @@
+@import url(https://52designs.vercel.app/components/reset.css);
+@import url(https://52designs.vercel.app/components/text-utils.css);
+@import url(https://52designs.vercel.app/components/button.css);
+@import url(https://52designs.vercel.app/components/cards.css);
+@import url(https://52designs.vercel.app/components/spacing.css);
+@import url(https://52designs.vercel.app/components/grid.css);
+
+:root {
+  --bg-color: #121212;
+  --font-color: #ffffff;
+  --white: #fff;
+  --black: #0d0d0d;
+  --primary: #6f00ed;
+
+  --card-bg: #171717;
+
+  color-scheme: dark;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+.container {
+  width: min(90%, 50rem);
+  margin: 0 auto;
+}
+
+.grid-col-2 {
+  justify-items: center;
+  gap: 2rem;
+}
+
+.card {
+  max-width: none;
+}
