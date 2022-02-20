@@ -14,6 +14,12 @@
 
   --card-bg: #171717;
 
+  --btn-bg-default: #3b3b3b;
+  --btn-hover-bg-default: #424242;
+
+  --red: #e21717aa;
+  --green: #3dbe29aa;
+
   color-scheme: dark;
 }
 
@@ -51,4 +57,27 @@ a {
 
 .card {
   max-width: none;
+}
+
+.question-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.options {
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 31rem;
+}
+
+.options--wrong,
+.options--wrong:hover {
+  background: var(--red);
+}
+
+.options--correct,
+.options--correct:hover {
+  background: var(--green);
 }
